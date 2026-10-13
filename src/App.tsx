@@ -2,7 +2,13 @@ import { Heading } from "./components/Heading";
 
 import "./styles/theme.css";
 import "./styles/global.css";
-import { TimerIcon } from "lucide-react";
+import {
+  CogIcon,
+  RotateCcwClockIcon,
+  SettingsIcon,
+  SunIcon,
+  TimerIcon,
+} from "lucide-react";
 
 export function App() {
   return (
@@ -11,6 +17,15 @@ export function App() {
         Olá mundo 1{" "}
         <button>
           <TimerIcon />
+        </button>
+        <button>
+          <RotateCcwClockIcon />
+        </button>
+        <button>
+          <SettingsIcon />
+        </button>
+        <button>
+          <SunIcon />
         </button>
       </Heading>
       <p>
