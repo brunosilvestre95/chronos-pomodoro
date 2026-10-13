@@ -6,7 +6,3 @@ body {
 h1 {
   color: var(--primary);
 }
-
-.heading {
-  background-color: rgb(168, 168, 240);
-}
