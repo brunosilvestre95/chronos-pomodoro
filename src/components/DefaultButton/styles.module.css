@@ -5,10 +5,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /*centralizando botao*/
+  /* largura horizontal */
   min-width: 24rem;
+  margin: 4.8rem 0; /* pode voltar para o margin original */
+  /* Adicione esta linha para forçar o botão a se centralizar no grid/flex pai */
+  align-self: center;
+  /*fim o alinhamento*/
   padding: 0.8rem;
   border-radius: 0.8rem;
-  margin: 4.8rem 0;
   cursor: pointer;
   transition: all 0.1 ease-in-out;
 }
